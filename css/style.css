@@ -83,6 +83,15 @@ h3{
   width: 60%;
   max-width: 150px;
 }
+a.button {
+  padding: 1px 6px;
+  border: 1px outset buttonborder;
+  font-size: 12px;
+  border-radius: 3px;
+  color: var(--white);
+  background-color: var(--brown);
+  text-decoration: none;
+}
 .swish-number {
   color: var(--black);
   text-decoration: none;

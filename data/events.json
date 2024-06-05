@@ -1,11 +1,42 @@
 {
-    "lectures": [
+    "screenings": [
         {
-            "place": "Bio Sågen - Titel",
+            "place": "Sommarljus och sen kom natten",
             "url": "",
-            "time": "Datum"
+            "time": "7 juni 2024",
+            "book": "https://forms.gle/tAs9i2pH9wYQS9iG7"
+        },
+        {
+            "place": "Stella: ett liv",
+            "url": "",
+            "time": "28 juni 2024",
+            "book": "https://forms.gle/AjLQ9xLMynQeVDqF6"
+        },
+        {
+            "place": "Drömmen lever vidare",
+            "url": "",
+            "time": "12 juli 2024",
+            "book": "https://forms.gle/WrvAjzNMf1hzFhp97"
+        },
+        {
+            "place": "Drömmen lever vidare",
+            "url": "",
+            "time": "15 juli 2024",
+            "book": "https://forms.gle/W7f2AVbSDuE15bh99"
+        },
+        {
+            "place": "Blix not bombs",
+            "url": "",
+            "time": "2 augusti 2024",
+            "book": "https://forms.gle/oN8ehEqEFK42ZyKY7"
+        },
+        {
+            "place": "Kaptenen",
+            "url": "",
+            "time": "16 augusti 2024",
+            "book": "https://forms.gle/5eEfqTF9Tf9Ui7zPA"
         }
     ],
-    "trainings": [
+    "events": [
     ]
 }
