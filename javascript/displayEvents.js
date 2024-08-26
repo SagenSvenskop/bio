@@ -1,5 +1,5 @@
 let screeningsContainer = document.getElementById('screenings');
-let previousContainer = document.getElementById('previous');
+let previousContainer = document.getElementById('previous-screenings');
 let eventsContainer = document.getElementById('events');
 
 function addEventLinks(data, container) {
