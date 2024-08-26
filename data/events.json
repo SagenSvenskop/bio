@@ -1,5 +1,5 @@
 {
-    "screenings": [
+    "previous": [
         {
             "place": "Sommarljus och sen kom natten",
             "url": "https://www.youtube.com/watch?v=FKFTD4TIa2U&t=3s",
@@ -29,7 +29,9 @@
             "url": "https://www.youtube.com/watch?v=roVzbGPSyDA",
             "time": "16 augusti 2024",
             "book": ""
-        },
+        }
+    ],
+    "screenings": [
         {
             "place": "Vi är fortfarande här",
             "url": "https://www.youtube.com/watch?v=jWXziovEE5c",
