@@ -2,40 +2,76 @@
     "screenings": [
         {
             "place": "Sommarljus och sen kom natten",
-            "url": "",
+            "url": "https://www.youtube.com/watch?v=FKFTD4TIa2U&t=3s",
             "time": "7 juni 2024",
-            "book": "https://forms.gle/tAs9i2pH9wYQS9iG7"
+            "book": ""
         },
         {
             "place": "Stella: ett liv",
-            "url": "",
+            "url": "https://www.youtube.com/watch?v=uKsZgIDiPvU",
             "time": "28 juni 2024",
-            "book": "https://forms.gle/AjLQ9xLMynQeVDqF6"
+            "book": ""
         },
         {
             "place": "Drömmen lever vidare",
-            "url": "",
-            "time": "12 juli 2024",
-            "book": "https://forms.gle/WrvAjzNMf1hzFhp97"
-        },
-        {
-            "place": "Drömmen lever vidare",
-            "url": "",
+            "url": "https://www.youtube.com/watch?v=C-ToH5Ml4m8",
             "time": "15 juli 2024",
-            "book": "https://forms.gle/W7f2AVbSDuE15bh99"
+            "book": ""
         },
         {
             "place": "Blix not bombs",
-            "url": "",
+            "url": "https://www.youtube.com/watch?v=9cPurIQnzag",
             "time": "2 augusti 2024",
-            "book": "https://forms.gle/oN8ehEqEFK42ZyKY7"
+            "book": ""
         },
         {
             "place": "Kaptenen",
-            "url": "",
+            "url": "https://www.youtube.com/watch?v=roVzbGPSyDA",
             "time": "16 augusti 2024",
-            "book": "https://forms.gle/5eEfqTF9Tf9Ui7zPA"
-        }
+            "book": ""
+        },
+        {
+            "place": "Vi är fortfarande här",
+            "url": "https://www.youtube.com/watch?v=jWXziovEE5c",
+            "time": "30 augusti 2024",
+            "book": "https://forms.gle/eYKC9WurVsnU7nPq6"
+        },
+        {
+            "place": "Bye Bye Boredom",
+            "url": "https://www.youtube.com/watch?v=IlVFn1Mt7R4",
+            "time": "13 september 2024",
+            "book": "https://forms.gle/JEy2kqtGkyo26T4C8"
+        },
+        {
+            "place": "Så länge hjärtat slår ",
+            "url": "https://www.youtube.com/watch?v=3HuTNsvlnEw",
+            "time": "27 september 2024",
+            "book": "https://forms.gle/VrXigWfvhWdXgjjQA"
+        },
+        {
+            "place": "Green Border",
+            "url": "https://www.youtube.com/watch?v=lrdVqfnpP7Q",
+            "time": "11 oktober 2024",
+            "book": "https://forms.gle/h6JpkjFputtBoAmL7"
+        },
+        {
+            "place": "Israel Palestina på svensk TV 1958-1989",
+            "url": "https://www.youtube.com/watch?v=dKmaXNJZ1TA",
+            "time": "25 oktober 2024",
+            "book": "https://forms.gle/iC5UKd1b8qJK84639"
+        },
+        {
+            "place": "Det omätbara",
+            "url": "https://www.youtube.com/watch?v=PlR_H5336mA",
+            "time": "8 november 2024",
+            "book": "https://forms.gle/xqVEoDzz45e9uSCM6"
+        },
+        {
+            "place": "Jag är kvinna",
+            "url": "https://www.youtube.com/watch?v=u0orSg_gN-s",
+            "time": "22 november 2024",
+            "book": "https://forms.gle/Xx6Fte7ETm7qFgjPA"
+        },
     ],
     "events": [
     ]
