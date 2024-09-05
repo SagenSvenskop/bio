@@ -1,80 +1,94 @@
 {
-    "previous": [
-        {
-            "place": "Sommarljus och sen kom natten",
-            "url": "https://www.youtube.com/watch?v=FKFTD4TIa2U&t=3s",
-            "time": "7 juni 2024",
-            "book": ""
-        },
-        {
-            "place": "Stella: ett liv",
-            "url": "https://www.youtube.com/watch?v=uKsZgIDiPvU",
-            "time": "28 juni 2024",
-            "book": ""
-        },
-        {
-            "place": "Drömmen lever vidare",
-            "url": "https://www.youtube.com/watch?v=C-ToH5Ml4m8",
-            "time": "15 juli 2024",
-            "book": ""
-        },
-        {
-            "place": "Blix not bombs",
-            "url": "https://www.youtube.com/watch?v=9cPurIQnzag",
-            "time": "2 augusti 2024",
-            "book": ""
-        },
-        {
-            "place": "Kaptenen",
-            "url": "https://www.youtube.com/watch?v=roVzbGPSyDA",
-            "time": "16 augusti 2024",
-            "book": ""
-        }
-    ],
-    "screenings": [
-        {
-            "place": "Vi är fortfarande här",
-            "url": "https://www.youtube.com/watch?v=jWXziovEE5c",
-            "time": "30 augusti 2024",
-            "book": "https://forms.gle/eYKC9WurVsnU7nPq6"
-        },
-        {
-            "place": "Bye Bye Boredom",
-            "url": "https://www.youtube.com/watch?v=IlVFn1Mt7R4",
-            "time": "13 september 2024",
-            "book": "https://forms.gle/JEy2kqtGkyo26T4C8"
-        },
-        {
-            "place": "Så länge hjärtat slår ",
-            "url": "https://www.youtube.com/watch?v=3HuTNsvlnEw",
-            "time": "27 september 2024",
-            "book": "https://forms.gle/VrXigWfvhWdXgjjQA"
-        },
-        {
-            "place": "Green Border",
-            "url": "https://www.youtube.com/watch?v=lrdVqfnpP7Q",
-            "time": "11 oktober 2024",
-            "book": "https://forms.gle/h6JpkjFputtBoAmL7"
-        },
-        {
-            "place": "Israel Palestina på svensk TV 1958-1989",
-            "url": "https://www.youtube.com/watch?v=dKmaXNJZ1TA",
-            "time": "25 oktober 2024",
-            "book": "https://forms.gle/iC5UKd1b8qJK84639"
-        },
-        {
-            "place": "Det omätbara",
-            "url": "https://www.youtube.com/watch?v=PlR_H5336mA",
-            "time": "8 november 2024",
-            "book": "https://forms.gle/xqVEoDzz45e9uSCM6"
-        },
-        {
-            "place": "Jag är kvinna",
-            "url": "https://www.youtube.com/watch?v=u0orSg_gN-s",
-            "time": "22 november 2024",
-            "book": "https://forms.gle/Xx6Fte7ETm7qFgjPA"
-        }
-    ],
-    "events": [
-    ]
+  "previous": [
+    {
+      "title": "Vi är fortfarande här",
+      "url": "https://www.youtube.com/watch?v=jWXziovEE5c",
+      "time": "30 augusti 2024",
+      "book": ""
+    },
+    {
+      "title": "Kaptenen",
+      "url": "https://www.youtube.com/watch?v=roVzbGPSyDA",
+      "time": "16 augusti 2024",
+      "book": ""
+    },
+    {
+      "title": "Blix not bombs",
+      "url": "https://www.youtube.com/watch?v=9cPurIQnzag",
+      "time": "2 augusti 2024",
+      "book": ""
+    },
+    {
+      "title": "Drömmen lever vidare",
+      "url": "https://www.youtube.com/watch?v=C-ToH5Ml4m8",
+      "time": "15 juli 2024",
+      "book": ""
+    },
+    {
+      "title": "Stella: ett liv",
+      "url": "https://www.youtube.com/watch?v=uKsZgIDiPvU",
+      "time": "28 juni 2024",
+      "book": ""
+    },
+    {
+      "title": "Sommarljus och sen kom natten",
+      "url": "https://www.youtube.com/watch?v=FKFTD4TIa2U&t=3s",
+      "time": "7 juni 2024",
+      "book": ""
+    }
+  ],
+  "screenings": [
+    {
+      "book": "https://forms.gle/JEy2kqtGkyo26T4C8",
+      "description": "Jackie och Nova har alltid varit nära vänner. Deras liv på byn kretsar kring droger, hästar och EPA-traktorer. Allt förändras när en knarklangare flyttar till byn. Under en ödesdiger dag tar vänskapen slut för gott. I saknaden efter Nova börjar Jackie testa gränser på egen hand.",
+      "language": "",
+      "length": "",
+      "time": "13 september 2024",
+      "title": "Bye Bye Boredom",
+      "trailer": "<iframe width=\"955\" height=\"537\" src=\"https://www.youtube.com/embed/IlVFn1Mt7R4\" title=\"Bye Bye Boredom - trailer\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+      "url": "https://www.youtube.com/watch?v=IlVFn1Mt7R4",
+      "year": ""
+    },
+    {
+      "title": "Så länge hjärtat slår ",
+      "description": "Våren 2020. Coronaviruset sveper genom Sverige och når äldreboendet där Hanne arbetar. Hemmagjorda visir, brist på såväl personal som säkerhetsrutiner - och en ledning som hävdar att allt är under kontroll. Hanne tvingas välja sida: arbetsgivarna eller de äldre vars liv hon har i sina händer. När ingen lyssnar bestämmer sig Hanne för att gå till media. Plötsligt kallas hon till huvudkontoret som ger henne ett ultimatum: var tyst eller lämna. Bianca Kronlöf lyser starkt i en film om vänskap, motstånd och lojalitet i en tid då hela världen höll andan. Så länge hjärtat slår är inspirerad av verkliga händelser.",
+      "url": "https://www.youtube.com/watch?v=3HuTNsvlnEw",
+      "time": "27 september 2024",
+      "book": "https://forms.gle/VrXigWfvhWdXgjjQA",
+      "trailer": "<iframe width=\"993\" height=\"537\" src=\"https://www.youtube.com/embed/3HuTNsvlnEw\" title=\"SÅ LÄNGE HJÄRTAT SLÅR regi Ella Lemhagen | trailer | TriArt Film-SFD\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "title": "Green Border",
+      "description": "I de ogenomträngliga skogarna mellan Belarus och Polen, är flyktingar fångade i ”den gröna gränsen”, cyniskt skapad av den vitryska diktatorn Alexander Lukasjenko. Flyktingar från Mellanöstern och Afrika lockas till gränsen genom propaganda som lovar enkel passage till EU. I årets mest angelägna film riktar Agnieszka Holland kameran mot en syrisk flyktingfamilj som vill till Sverige, en människorättsaktivist och en tvivlande gränsvakt, vars liv flätas samman i en filmisk fresk över det samtida Europa.",
+      "url": "https://www.youtube.com/watch?v=lrdVqfnpP7Q",
+      "time": "11 oktober 2024",
+      "book": "https://forms.gle/h6JpkjFputtBoAmL7",
+      "trailer": "<iframe width=\"955\" height=\"537\" src=\"https://www.youtube.com/embed/lrdVqfnpP7Q\" title=\"Green Border - trailer\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "title": "Israel Palestina på svensk TV 1958-1989",
+      "description": "Under åren 1958 - 1989 rådde public service-monopol i Sverige och SVT:s rapportering från Israel och Palestina var unik. Deras reportrar var ständigt på plats i det krigsdrabbade området och dokumenterade allt från vardagsberättelser till internationella storkriser.",
+      "url": "https://www.youtube.com/watch?v=dKmaXNJZ1TA",
+      "time": "25 oktober 2024",
+      "book": "https://forms.gle/iC5UKd1b8qJK84639",
+      "trailer": "<iframe width=\"955\" height=\"537\" src=\"https://www.youtube.com/embed/dKmaXNJZ1TA\" title=\"Israel Palestina på svensk TV 1958-1989 – trailer och intervju med Göran Hugo Olsson, Tobias Janson\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "title": "Det omätbara",
+      "description": "Att få 15 barn att somna på en förskola mitt på dagen. Att i hemtjänsten jaga minuter i hissen mellan vårdtagare. I \"Det omätbara\" vänder Nils Petter Löfstedt ömsint kameran mot sina föräldrar och den stora yrkesgrupp som arbetar med att ta hand om andra. Resultatet är en dokumentär om en just nu omöjlig ekvation. På samma gång en uppmaning till kamp och en varm skildring av det som definierar oss som människor. Berättelserna visar sig vara en krutdurk i Sverige 2024.",
+      "url": "https://www.youtube.com/watch?v=PlR_H5336mA",
+      "time": "8 november 2024",
+      "book": "https://forms.gle/xqVEoDzz45e9uSCM6",
+      "trailer": "<iframe width=\"955\" height=\"537\" src=\"https://www.youtube.com/embed/PlR_H5336mA\" title=\"Det omätbara – trailer och intervju med Nils Petter Löfstedt, Johan Löfstedt, Katrin Nörthen\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    },
+    {
+      "title": "Jag är kvinna",
+      "description": "Under halva sitt liv har Aniela tvingats dölja sin verkliga identitet och levt på den polska landsbygden som en man. I övergången från kommunismen till kapitalismen i Polen får Aniela möjlighet att leva som sitt rätta jag, som kvinna, men med svåra konsekvenser. Problem i äktenskapet och föräldraskapet, försvårade familjerelationer samt ett komplicerat bemötande av samhället sätter henne i en omöjlig situation. Vilka val kommer Aniela behöva göra? Kommer hon vara redo att offra allt för att bli den hon är menad att vara? JAG ÄR KVINNA porträtterar 45 år av Anielas liv och en resa för att hitta personlig frihet som transkvinna. ",
+      "url": "https://www.youtube.com/watch?v=u0orSg_gN-s",
+      "time": "22 november 2024",
+      "book": "https://forms.gle/Xx6Fte7ETm7qFgjPA",
+      "trailer": "<iframe width=\"955\" height=\"537\" src=\"https://www.youtube.com/embed/u0orSg_gN-s\" title=\"Jag är kvinna  - trailer\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>"
+    }
+  ],
+  "events": []
 }

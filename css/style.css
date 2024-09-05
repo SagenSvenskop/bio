@@ -4,6 +4,7 @@
   --biored: #cf2e2e;
   --brown: #6f2f1e;
   --brownlight: #a0442b;
+  --transgrey: rgba(0, 0, 0, 0.05);
 }
 
 @font-face {
@@ -14,10 +15,11 @@
 body {
   text-align: center;
   background-color: var(--white);
-  background-image: url("../assets/img/sagen-bright.jpg");
+  background-image: url('../assets/img/sagen-bright.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1400px 2100px;
+  background-attachment: fixed;
   margin: 0;
   padding: 0;
 }
@@ -49,7 +51,7 @@ a {
   color: var(--brown);
   border-bottom: 1px solid var(--brown);
 }
-h1{
+h1 {
   margin: 0px;
   color: var(--black);
   font-family: AvenirBlack;
@@ -64,7 +66,7 @@ h2 {
   margin: 0;
   text-align: left;
 }
-h3{
+h3 {
   color: var(--brown);
   font-family: AvenirBlack;
   font-size: 20px;
@@ -83,8 +85,14 @@ h3{
   width: 60%;
   max-width: 150px;
 }
+/* .trailer {
+  max-width: 477px;
+  max-height: 268px;
+  position: relative;
+} */
 a.button {
   padding: 1px 6px;
+  margin-bottom: 12 px;
   border: 1px outset buttonborder;
   font-size: 12px;
   border-radius: 3px;
@@ -100,6 +108,13 @@ a.button {
   height: 40px;
   padding: 5px;
 }
+.summary-title {
+  color: var(--brownlight);
+  font-family: 'Khula', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+}
 p {
   color: var(--black);
   font-family: 'Khula', sans-serif;
@@ -107,28 +122,68 @@ p {
   font-size: 14px;
   text-align: left;
 }
-#page-title{
+details {
+  color: var(--black);
+  font-family: 'Khula', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  /* display: inline; */
+  text-align: left;
+}
+details > summary {
+  /* list-style-type: '▼'; */
+}
+
+details[open] > summary {
+  /* list-style-type: '▲'; */
+}
+
+details[open] > summary {
+  margin-bottom: 0.5rem;
+}
+
+article {
+  padding-top: 0.5rem;
+}
+
+#page-title {
   display: inline;
 }
 /* figure progress */
-h3, h6 {
+h3,
+h6 {
   margin: 0;
   line-height: 1em;
 }
 h6 {
-  font-size: .8em;
-  padding: 0 0 .5em;
+  font-size: 0.8em;
+  padding: 0 0 0.5em;
   color: #919191;
 }
-
+iframe {
+  max-width: 477px;
+  max-height: 268px;
+  position: relative;
+  padding-top: 0.5rem;
+}
 @keyframes expand {
-  from {width: 0%;}
-  to {width: 100%;}
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 768px) {
   @keyframes expand {
-    from {width: 0%;}
-    to {width: calc(100%);}
+    from {
+      width: 0%;
+    }
+    to {
+      width: calc(100%);
+    }
   }
 }
 
