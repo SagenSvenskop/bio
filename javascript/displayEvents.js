@@ -7,7 +7,7 @@ function addEventLinks(data, container) {
     const info = data[i];
     const element = document.createElement('div');
     const bookHTML = !!info.book
-      ? `<div><a class="button" href="${info.book}">Boka</a></div`
+      ? `<a class="button" href="${info.book}">Boka</a>`
       : '';
     const summaryHTML = `<span class=summary-title>${info.title || ''}</span> ${
       info.time || ''
@@ -15,7 +15,8 @@ function addEventLinks(data, container) {
     const detailsHTML = `<p>${
       info.description || ''
     }</p><div>${bookHTML}</div><div class=trailer>${info.trailer || ''}</div>`;
-    element.innerHTML = `<article><details><summary>${summaryHTML}</summary>${detailsHTML}</details><article>`;
+
+    element.innerHTML = `<article><details><summary>${summaryHTML}</summary>${detailsHTML}</details></article>`;
     container.appendChild(element);
   }
 }
