@@ -6,7 +6,7 @@
 async function fetchData() {
   const API_KEY = 'AIzaSyCOCzq09ujrAuT7L5OuvmSEh-PQSHE2X8w';
   const SPREADSHEET_ID = '14UVhAXFQAorZhPUP63SKYv4MCdc1__DJJno-C2uKNEY';
-  const RANGE = 'filmer!A43:F51'; // Adjust range as needed
+  const RANGE = 'filmer!A1:F500'; // Adjust range as needed
 
   const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${RANGE}?key=${API_KEY}`;
 
@@ -90,8 +90,10 @@ function displayData(data) {
   const currentMovies = document.getElementById('screenings');
 
   data.forEach((movieInfoRow) => {
-    const newArticle = addMovieArticle(document, movieInfoRow);
-    currentMovies.appendChild(newArticle);
+    if (movieInfoRow[0]) {
+      const newArticle = addMovieArticle(document, movieInfoRow);
+      currentMovies.appendChild(newArticle);
+    }
   });
 }
 
