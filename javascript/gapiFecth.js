@@ -1,14 +1,16 @@
-// TODO: filter movies based on column
+// Data ranges
+// Adjust range as needed
+let MOVIE_RANGE = 'filmer!A6:F500';
+let INFO_RANGE = 'info!B6:C100';
 
 /**
  * Fetches content from a public google sheet
  */
-async function fetchData() {
+async function fetchData(range) {
   const API_KEY = 'AIzaSyCOCzq09ujrAuT7L5OuvmSEh-PQSHE2X8w';
   const SPREADSHEET_ID = '14UVhAXFQAorZhPUP63SKYv4MCdc1__DJJno-C2uKNEY';
-  const RANGE = 'filmer!A6:F500'; // Adjust range as needed
-
-  const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${RANGE}?key=${API_KEY}`;
+  
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/${range}?key=${API_KEY}`;
 
   try {
     const response = await fetch(url);
@@ -86,7 +88,7 @@ function addMovieArticle(document, movieInfo) {
 /**
  * Displays data
  */
-function displayData(data) {
+function displayScreeningData(data) {
   const currentMovies = document.getElementById('screenings');
 
   data.forEach((movieInfoRow) => {
@@ -96,7 +98,21 @@ function displayData(data) {
     }
   });
 }
+/**
+ * Displays website information
+ */
+function displayWebsiteInfo(data) {
+  data.forEach((info) => {
+      const element = document.getElementById(info[0]);
+      if (element && info[1]) {
+        element.innerHTML = info[1];
+      }
+  })
+}
 
 // main functionality
-const data = await fetchData();
-displayData(data.values);
+const screeningData = await fetchData(MOVIE_RANGE);
+displayScreeningData(screeningData.values);
+
+const infoTextData = await fetchData(INFO_RANGE);
+displayWebsiteInfo(infoTextData.values);
