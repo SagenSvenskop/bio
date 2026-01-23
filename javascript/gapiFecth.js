@@ -51,7 +51,8 @@ function addMovieArticle(document, movieInfo) {
 
   // details
   const descriptionParagraph = document.createElement('p');
-  descriptionParagraph.textContent = description;
+  descriptionParagraph.classList.add('include-white-space');
+  descriptionParagraph.innerHTML = description;
 
   const detailsContent = document.createElement('div');
   detailsContent.appendChild(descriptionParagraph);
@@ -105,6 +106,7 @@ function displayWebsiteInfo(data) {
   data.forEach((info) => {
       const element = document.getElementById(info[0]);
       if (element && info[1]) {
+        element.classList.add('include-white-space');
         element.innerHTML = info[1];
       }
   })

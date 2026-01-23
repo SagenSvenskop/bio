@@ -51,6 +51,9 @@ a {
   color: var(--brown);
   border-bottom: 1px solid var(--brown);
 }
+.include-white-space {
+    white-space: pre-wrap;
+}
 h1 {
   margin: 0px;
   color: var(--black);
