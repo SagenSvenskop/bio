@@ -3,6 +3,8 @@
   <head>
     <link rel="icon" href="assets/img/main-logo.png" />
     <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="./javascript/gapiFecth.js" defer></script>
+
     <meta
       name="viewport"
       charset="UTF-8"
@@ -11,10 +13,6 @@
     <title>Bio Sågen</title>
   </head>
   <body>
-    <!--
-TODOS
-- byt div till sections
--->
 
     <main id="content">
       <div class="sub-section">
@@ -28,16 +26,16 @@ TODOS
         <!-- <img id="building" src="assets/img/byggnad.jpg" alt="Sågen byggnad"> -->
       </div>
 
-      <div class="sub-section">
+      <section class="sub-section">
         <h2>En Folkets Bio i Svensköp!</h2>
         <p id="general-description"></p>
         <p id="description-2"></p>
         <p id="address"></p>
-      </div>
+      </section>
 
-      <div class="sub-section"></div>
+      <section class="sub-section"></section>
 
-      <div class="sub-section">
+      <section class="sub-section">
         <div id="screenings">
           <h2>Kommande visningar</h2>
           <p id="screenings-info"></p>
@@ -49,15 +47,15 @@ TODOS
         <!-- <div id="events" padding-bottom="20px">
         <h2>Andra events på Sågen</h2>
       </div> -->
-      </div>
+      </section>
 
-      <div class="sub-section">
+      <section class="sub-section">
         <h2>Medlemskap</h2>
         <p id="membership-info"></p>
         <p><a href="https://apply.cardskipper.se/shop/936b5f46-ee1c-4ca7-a34a-3ef062f17c46">Bli medlem här</a></p>
-      </div>
+      </section>
 
-      <div class="sub-section">
+      <section class="sub-section">
         <h2>Kontakt</h2>
         <p>
           Bio Sågen nås på
@@ -85,19 +83,18 @@ TODOS
             src="assets/img/ig-logo.svg"
             alt="instagram"
         /></a>
-      </div>
+      </section>
 
-      <div class="sub-section">
+      <section class="sub-section">
         <p class="about">
           <i>
             This is a low-tech, minimalist, static site website without
             trackers, cookies or unnecessary code.
           </i>
         </p>
-      </div>
+      </section>
     </main>
 
-    <script type="module" src="./javascript/gapiFecth.js"></script>
     <!-- <script type="module" src="./javascript/displayEvents.js"></script> -->
   </body>
 </html>
